@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Python artifacts & envs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.pyre/
+pip-wheel-metadata/
+build/
+dist/
+
+# IDEs, editors, and build tools
+.vscode/
+*.iml
+.idea/
+.gradle/
+local.properties
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins*
+.pub-cache/
+pubspec.lock
+**/build/
+android/.gradle/
+ios/Pods/
+ios/Flutter/Flutter.framework
+
+# Misc
+repo-backup.bundle
+outputs.json
